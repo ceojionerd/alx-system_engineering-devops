@@ -1,2 +1,2 @@
 #!/bin/bash
-env | awk -F= '{printf "%s=%s\n", $1, $2}'
+printenv
