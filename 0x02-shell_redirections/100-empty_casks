@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -empty -print | tr "/" "\n" | rev | head -n 1 | rev
+find . -empty -printf '%f\n'
